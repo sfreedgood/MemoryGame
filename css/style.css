@@ -1,0 +1,106 @@
+body{
+    text-align: center;
+    margin: 0; 
+}
+
+main{
+    text-align: center;
+    width: 850px;
+    margin: 35px auto;
+}
+
+nav{
+    background-color: #00A6B3;
+    color: #FFFFFF;
+    padding: 20px 0;
+}
+
+a{
+    border-bottom: 2px solid transparent;
+}
+
+a:hover{
+    border-color: white;
+}
+
+header{
+    background-color: #F15B31;
+    color: #FFFFFF;
+    padding: 30px 20px;
+}
+
+h1{
+    font-family: "Railway", sans-serif;
+    color: #0D2C40;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 45px;
+    margin: 0;
+}
+
+.navbtn{
+    font-family: "Railway", sans-serif;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+h2{
+    font-family: "Railway", sans-serif;
+    color: #0D2C40;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+p{
+    font-family: "Droid Serif", serif;
+    line-height: 26px;
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+img{
+    margin: 30px 8px 0px 8px;
+}
+
+footer{
+    background-color: #0D2C40;
+    color: white;
+    text-transform: uppercase;
+    padding: 0 20px;
+    font-size: 37px;
+    letter-spacing: .08em;
+    font-weight: 400;
+    overflow: auto;
+}
+
+.copyright{
+    float: left;
+    font-family: "Railway", sans-serif;
+}
+
+.message{
+    float: right;
+    font-family: "Railway", sans-serif;
+}
+
+.clearfix:after {
+visibility: hidden;
+display: block;
+content: " ";
+clear: both;
+height: 0;
+font-size: 0;
+}
+
+.name{
+    color: #F15B31;
+    font-weight: 700;
+    
+}
